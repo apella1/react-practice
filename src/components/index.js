@@ -8,3 +8,4 @@ export {default as Time} from './localState/LocalState';
 export {default as Toggle} from './toggle/Toggle';
 export {default as LoginButton} from './login/Login';
 export {default as LogoutButton} from './logout/Logout';
+export {default as Blog} from './keys/Keys';

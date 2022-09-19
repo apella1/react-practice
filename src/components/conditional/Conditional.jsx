@@ -41,6 +41,8 @@ class LoginControl extends React.Component {
 
 export default LoginControl 
 
+// Components can also be defined as functions within the body of the main component e.g defining LoginButton and Logoutbutton within LoginControl
+
 // conditional rendering in react works the same way as conditions work in javascript 
 // using the inline if and the &&(logical and) operator as a shorter way of the display
 // true && evaluates to true and false && evaluates to false 
