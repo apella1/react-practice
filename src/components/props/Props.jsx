@@ -14,11 +14,11 @@ function Welcome (props) {
     return (
         <>
             <h1>
-                {props.user.name} is {props.user.age}
+                {user.name} is {user.age}
             </h1>
 
             <p>
-                {props.user.text}
+                {user.text}
             </p>
         </>
         

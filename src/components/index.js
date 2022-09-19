@@ -5,3 +5,4 @@ export {default as Welcome} from './props/Props';
 export {default as Greeting} from './class/Class';
 export { default as Clock} from './state/State';
 export {default as Time} from './localState/LocalState';
+export {default as Toggle} from './toggle/Toggle';
