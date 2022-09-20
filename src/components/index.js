@@ -9,3 +9,4 @@ export {default as Toggle} from './toggle/Toggle';
 export {default as LoginButton} from './login/Login';
 export {default as LogoutButton} from './logout/Logout';
 export {default as Blog} from './keys/Keys';
+export {default as Numbers} from './map/Map';

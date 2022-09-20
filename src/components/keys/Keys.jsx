@@ -44,7 +44,7 @@ function Blog(props) {
     );
 }
 
-export default function 
+export default Blog 
 
 // * keys only have to be unique among siblings. They don't need to be globally unique
 // keys serve as a hint to react but they don't get passed to the components

@@ -1,5 +1,5 @@
 import './App.css';
-import { Content, Header, Greeting, Welcome, UseEffect, Clock, Toggle, Blog } from './components';
+import { Content, Header, Greeting, Welcome, UseEffect, Clock, Toggle, Blog, Numbers } from './components';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <UseEffect />
       <Toggle />
       <Blog />
+      <Numbers />
     </div>
   );
 }
