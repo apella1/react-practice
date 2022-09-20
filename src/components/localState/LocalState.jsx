@@ -1,6 +1,5 @@
 import './localstate.css';
 import React from 'react';
-
 class Time extends React.Component {
     constructor(props) { 
         super(props);
@@ -38,6 +37,6 @@ class Time extends React.Component {
 export default Time
 
 // * adding local state to a class
-// ? Mounting and unmounting in react
+// ? Mounting and unmounting in react -  react lifecycle methods 
 // ? lifecycle methods - componentDidMount and componentWillUnmount
 // stateful vs stateless components
