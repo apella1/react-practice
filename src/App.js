@@ -1,5 +1,6 @@
+import { Blur, OuterClick } from './advanced';
 import './App.css';
-import { Blog, Calculator, Greeting, LoginControl, NameForm } from './components';
+import { Calculator, Greeting, LoginControl, NameForm } from './components';
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <Greeting name='Pedro'/>
       <LoginControl />
       <NameForm />
-      <Blog />
+      <OuterClick />
+      <Blur />
     </div>
   );
 }
