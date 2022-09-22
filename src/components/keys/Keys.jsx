@@ -36,7 +36,7 @@ function Blog(props) {
     )
 
     return (
-        <div>
+        <div className='blog'>
             {sidebar}
             <hr />
             {content}

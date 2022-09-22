@@ -1,5 +1,7 @@
 import './content.css';
 
+const names = ['Peter', 'John', 'Paul', 'Faraday'];
+
 function NameList(props) { 
   const names = props.names;
   const nameItems = names.map( (name) => 
@@ -14,8 +16,6 @@ function NameList(props) {
     </ul>
   )
 }
-
-const names = ['Peter', 'John', 'Paul', 'Faraday'];
 
 // React Lists and Keys
 const numbers = [1, 5, 4, 7, 8];

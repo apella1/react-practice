@@ -1,6 +1,7 @@
 import './map.css';
 
 // embedding map in jsx
+// ? why aren't the numbers called from the Numbers function 
 
 const numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
 

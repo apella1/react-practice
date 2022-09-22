@@ -1,18 +1,14 @@
 import './App.css';
-import { Content, Header, Greeting, Welcome, UseEffect, Clock, Toggle, Blog, Numbers } from './components';
+import { Blog, Calculator, Greeting, LoginControl, NameForm } from './components';
 
 function App() {
   return (
     <div className="App">
-      <Clock />
-      <Header />
-      <Content />
-      <Welcome />
-      <Greeting name='Leonardo da Vinci'/>
-      <UseEffect />
-      <Toggle />
+      <Calculator />
+      <Greeting name='Pedro'/>
+      <LoginControl />
+      <NameForm />
       <Blog />
-      <Numbers />
     </div>
   );
 }

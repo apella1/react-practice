@@ -1,8 +1,22 @@
 import './conditional.css';
 import React from 'react';
 import Greeting from '../class/Class';
-import { LogoutButton, LoginButton } from './components';
 
+function LoginButton() { 
+    return (
+        <button>
+            Log In
+        </button>
+    )
+}
+
+function LogoutButton () { 
+    return (
+        <button>
+            Log Out
+        </button>
+    )
+}
 class LoginControl extends React.Component { 
     constructor(props) { 
         super(props)
@@ -31,7 +45,7 @@ class LoginControl extends React.Component {
         }
 
         return (
-            <div>
+            <div className='login-control'>
                 <Greeting isLoggedIn={isLoggedIn}/>
                 {button}
             </div>
