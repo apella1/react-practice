@@ -1,7 +1,5 @@
 import './props.css';
 
-
-
 function Welcome (props) { 
 
     const user = {
@@ -19,6 +17,10 @@ function Welcome (props) {
 
             <p>
                 {user.text}
+            </p>
+
+            <p>
+                {user.name} loves {user.hobbies[1]} compared to other hobbies.
             </p>
         </>
         

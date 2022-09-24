@@ -1,5 +1,6 @@
 import './localstate.css';
 import React from 'react';
+
 class Time extends React.Component {
     constructor(props) { 
         super(props);
@@ -38,5 +39,7 @@ export default Time
 
 // * adding local state to a class
 // ? Mounting and unmounting in react -  react lifecycle methods 
-// ? lifecycle methods - componentDidMount and componentWillUnmount
+// ? lifecycle methods - componentDidMount and componentWillUnmount - alternative is using useEffect hook while using functional components
 // stateful vs stateless components
+
+// this.setState is similar to the useState hook. However, the hook does not merge the old and the new states together 

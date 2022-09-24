@@ -1,6 +1,7 @@
-import { Blur, OuterClick } from './advanced';
 import './App.css';
-import { Calculator, Greeting, LoginControl, NameForm } from './components';
+import { Blur, OuterClick } from './advanced';
+import { Calculator, Greeting, LoginControl, NameForm, Welcome } from './components';
+import { NumberCounter } from './hooks';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <NameForm />
       <OuterClick />
       <Blur />
+      <NumberCounter />
+      <Welcome />
     </div>
   );
 }
