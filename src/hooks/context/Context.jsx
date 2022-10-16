@@ -13,11 +13,11 @@ const themes = {
     }
 }
 
-const ThemeContext = React.createContext(themes.light);
+const ThemeContext = React.createContext(themes.light); // React.createContext functionality
 
 function ThemeApp() { 
     return (
-        <ThemeContext.Provider value={themes.dark}>
+        <ThemeContext.Provider value={themes.light}>
             <ToolBar />
         </ThemeContext.Provider>
     )

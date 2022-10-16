@@ -1,19 +1,15 @@
 import './App.css';
 import { Blur, OuterClick } from './advanced';
 import { Calculator, Greeting, LoginControl, NameForm, Welcome } from './components';
-import { NumberCounter } from './hooks';
+import { NumberCounter, ThemeApp } from './hooks';
+import { StarRating } from './functional'; 
+import { FormValidation } from './mini';
 
 function App() {
   return (
     <div className="App">
-      <Calculator />
-      <Greeting name='Pedro'/>
+      <FormValidation />
       <LoginControl />
-      <NameForm />
-      <OuterClick />
-      <Blur />
-      <NumberCounter />
-      <Welcome />
     </div>
   );
 }

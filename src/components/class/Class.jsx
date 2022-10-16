@@ -10,11 +10,8 @@ class Greeting extends React.Component {
         this.handleLightsOff = this.handleLightsOff.bind(this);
     }
 
-    // I have used an arrow function within the setState method. In the other examples the state is called directly without using a function 
     handleLightsOn() {
-        this.setState( () => (
-            {lightsOn: true}
-        ))
+        this.setState({lightsOn: true})
     }
 
     handleLightsOff() { 
@@ -24,11 +21,7 @@ class Greeting extends React.Component {
     render() {
         const lightsOn = this.state.lightsOn;
         return (
-            <div>
-                <h1>
-                    Hello, {this.props.name}
-                </h1>
-
+            <div className={lightsOn ? 'light' : 'dark'}>
                 <button onClick={lightsOn ? this.handleLightsOff : this.handleLightsOn}>
                     {lightsOn ? 'OFF' : 'ON'}
                 </button>

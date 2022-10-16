@@ -17,3 +17,4 @@ export {default as Multiple} from './multiple/Multiple';
 export {default as Page} from './render/Render';
 export {default as Favorite} from './select/Select';
 export {default as EssayForm} from './textarea/Textarea';
+export {default as Condition} from './condition/Condition';

@@ -114,3 +114,4 @@ export default Calculator
 // sharing state is managed by moving it up to the closest common ancestor of the component that needs it. This is known as lifting state 
 // There should be a single source of truth for any data that changes in a react application
 // ? top-down data flow
+// ? lifting state up a component tree vs sending state down a component tree 
