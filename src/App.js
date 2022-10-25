@@ -8,8 +8,7 @@ import { FormValidation } from './mini';
 function App() {
   return (
     <div className="App">
-      <FormValidation />
-      <LoginControl />
+      <NumberCounter />
     </div>
   );
 }

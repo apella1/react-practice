@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# React Practice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a repository covering the main React features and functionality from the official React documentation.
+The repository provides different code examples for both functional and class components.
 
-## Available Scripts
+## CSS
 
-In the project directory, you can run:
+TailwindCSS is configured for the application and can therefore be readily used within the application.
 
-### `npm start`
+## Contribution
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To contribute to the repository, you can follow the steps below to set up your local development environment.
+Also feel free to add on the existing documentation on how to better cover the React concepts. This may be by fixing errors on the documentation or totally introducing a new section.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Source Folder
 
-### `npm test`
+### advanced
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is the folder dedicated for advanced React features and functionalities as included in the official React documentation. Feel free to add content on the existing files or create a different file within the folder to cover other concepts not included yet.
 
-### `npm run build`
+### components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This folder contains concepts from the Main Concepts section in the official React documentation. All the components in this folder are class based. Feel free to edit the existing code base. You can add other folders within the folder to cover any other missing content. Comments are highly encouraged to clarify on the inclusions ofr the changes that you've made.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### functional
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This folder covers the Main Concepts from the documentation but with functions.
 
-### `npm run eject`
+### mini
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is the most versatile folder of all as you can include any mini project of your liking. It could be as relatively simple as a timer or you could make it as advanced as you'd like. Also feel free to add more features to the existing mini projects. To practice your documentation skills, remember to document the changes you've made in the mini projects section under the specific project that you've workded on.
+Only documented changes will be merged with the main project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### hooks
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The directory id focused on covering the major React hooks. You can improve on the existing code base or add other examples to cover the hooks more widely.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Mini Projects
 
-## Learn More
+These are the currently available mini projects.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Testing The Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Writing tests for the various components is highly encouraged. The package being used is Jest.
