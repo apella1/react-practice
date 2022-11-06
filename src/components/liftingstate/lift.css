@@ -1,0 +1,8 @@
+.boiling-verdict {
+    padding: 1rem;
+    margin: 1rem 2rem;
+    background-color: brown;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}

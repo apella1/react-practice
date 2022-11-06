@@ -5,7 +5,7 @@ class Toggle extends React.Component {
     constructor(props) { 
         super(props);
         this.state = {isToggleOn: true}
-        this.handleClick = this.handleClick.bind(this); // this binding  is necessary to make 'this' work in the callback 
+        this.handleClick = this.handleClick.bind(this); // this binding is necessary to make 'this' work in the callback 
     }
 
     handleClick() { 
@@ -14,7 +14,7 @@ class Toggle extends React.Component {
         }));
     }
 
-    render() { 
+    render() {
         return (
             <button onClick={this.handleClick}>
                 {this.state.isToggleOn ? 'ON' : 'OFF'}
@@ -26,3 +26,4 @@ class Toggle extends React.Component {
 export default Toggle
 
 // in javascript, class methods are not bound by default 
+// ? how binding works in JS

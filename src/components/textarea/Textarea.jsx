@@ -6,7 +6,7 @@ class EssayForm extends React.Component {
         super(props);
 
         this.state = {
-            value: 'Write an essay of your favorite founder.'
+            value: 'Write an essay of your favorite founder.',
         }
 
         this.handleChange = this.handleChange.bind(this);

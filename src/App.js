@@ -4,11 +4,14 @@ import { Calculator, Greeting, LoginControl, NameForm, Welcome } from './compone
 import { NumberCounter, ThemeApp } from './hooks';
 import { StarRating } from './functional'; 
 import { FormValidation } from './mini';
+import { PostForm, Posts } from './redux';
 
 function App() {
   return (
     <div className="App">
-      <NumberCounter />
+      <PostForm />
+      <Posts />
+      <Calculator />
     </div>
   );
 }

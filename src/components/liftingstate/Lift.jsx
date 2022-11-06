@@ -4,7 +4,7 @@ import React from 'react';
 function BoilingVerdict(props) { 
     const wouldBoil = props.celsius >= 100;
     return (
-        <p>
+        <p className='boiling-verdict'>
             {wouldBoil ? 'The water would boil' : 'The water would not boil'}
         </p>
     )

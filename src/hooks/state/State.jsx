@@ -6,7 +6,7 @@ function NumberCounter () {
 
     // similar to componentDidMount and componentDidUpdate
 
-    useEffect( () => { 
+    useEffect(() => { 
         document.title = `You clicked ${count} times`
     })
 

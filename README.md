@@ -3,6 +3,15 @@
 This is a repository covering the main React features and functionality from the official React documentation.
 The repository provides different code examples for both functional and class components.
 
+## Extensions
+
+To  have the best experience with the comments within the code base, install Better Comments extension in Visual Studio code to better categorize your comments.
+
+Other extensions that might be helpful for the project include:
+
+- Auto Import which helps with the imports within the file structure.
+- ES7+ React/Redux/React-Native snippets.
+
 ## CSS
 
 TailwindCSS is configured for the application and can therefore be readily used within the application.
@@ -28,7 +37,7 @@ This folder covers the Main Concepts from the documentation but with functions.
 
 ### mini
 
-This is the most versatile folder of all as you can include any mini project of your liking. It could be as relatively simple as a timer or you could make it as advanced as you'd like. Also feel free to add more features to the existing mini projects. To practice your documentation skills, remember to document the changes you've made in the mini projects section under the specific project that you've workded on.
+This is the most versatile folder of all as you can include any mini project of your liking. It could be as relatively simple as a timer or you could make it as advanced as you'd like. Also feel free to add more features to the existing mini projects. To practice your documentation skills, remember to document the changes you've made in the mini projects section under the specific project that you've worked on.
 Only documented changes will be merged with the main project.
 
 ### hooks
