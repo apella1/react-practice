@@ -1,7 +1,7 @@
 import './App.css';
 import { Blur, OuterClick } from './advanced';
 import { Calculator, Greeting, LoginControl, NameForm, Welcome } from './components';
-import { NativeReducer, NumberCounter, ThemeApp } from './hooks';
+import { Memo, NativeReducer, NumberCounter, ThemeApp } from './hooks';
 import { StarRating } from './functional'; 
 import { FormValidation } from './mini';
 import { PostForm, Posts } from './redux';
@@ -9,7 +9,7 @@ import { PostForm, Posts } from './redux';
 function App() {
   return (
     <div className="App">
-      <NativeReducer />
+      <Memo />
     </div>
   );
 }
