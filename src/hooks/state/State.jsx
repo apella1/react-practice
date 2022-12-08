@@ -36,3 +36,4 @@ export default NumberCounter;
 // useState is called inside a functional component to manage the local state
 // react preserves the states between re-renders 
 // in useState, the state doesn't have to be an object although it can be made so if desired 
+
