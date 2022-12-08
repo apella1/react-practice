@@ -1,15 +1,15 @@
 import './App.css';
 import { Blur, OuterClick } from './advanced';
 import { Calculator, Greeting, LoginControl, NameForm, Welcome } from './components';
-import { Memo, NativeReducer, NumberCounter, ThemeApp } from './hooks';
+import { Callback, Memo, NativeReducer, NumberCounter, ThemeApp } from './hooks';
 import { StarRating } from './functional'; 
 import { FormValidation } from './mini';
 import { PostForm, Posts } from './redux';
 
 function App() {
   return (
-    <div className="App">
-      <Memo />
+    <div className="bg-slate-600">
+      <Callback />
     </div>
   );
 }
