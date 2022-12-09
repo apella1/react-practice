@@ -5,3 +5,4 @@ export {default as NativeReducer} from './secondReducer/NativeReducer';
 export {default as Memo} from './memo/Memo';
 export {default as Callback} from './callback/Callback';
 export {default as Effect} from './effect/Effect';
+export {default as Ref} from './ref/Ref';
