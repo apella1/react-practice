@@ -11,16 +11,17 @@ const Effect = () => {
             .then((data) => setNames(data))
     }, []);
 
-    useEffect(() => {
+    const onSelectedNameChange = (name) => {
         fetch('../data/${selectedName}.json')
             .then((res) => res.json())
             .then((data) => setSelectedNameDetails(data))
-    }, [selectedName]);
+
+    }
 
     return (
         <div>
             {names.map(name => (
-                <button onClick={() => setSelectedName(name)}>
+                <button onClick={() => onSelectedNameChange(name)}>
                     {name}
                 </button>
             ))}
