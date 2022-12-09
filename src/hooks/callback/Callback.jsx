@@ -22,7 +22,13 @@ const Callback = () => {
     const[cars] = useState(['Ford', 'Chevy', 'Toyota', 'Honda']);
     const sortedNames = useMemo(() => [...names].sort(), [names]);
     const [count, setCount] = useState(0)
-    const sortFunc = useCallback((a, b) => a.localCompare(b), []);
+    const sortFunc = useCallback((a, b) => {
+        if (a > b) {
+            return [b, a]
+        } else {
+            return [a, b]
+        }
+    }, []);
 
   return (
     <div>
